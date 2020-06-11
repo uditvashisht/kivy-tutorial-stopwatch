@@ -1,0 +1,51 @@
+<Label>:
+    font_name: 'Roboto'
+    font_size: 60
+    markup: True
+
+<Button>:
+    font_name: 'Roboto'
+    font_size: 25
+    bold: True
+
+
+BoxLayout:
+    orientation: 'vertical'
+
+    Label:
+        id: time
+        text: '[b]00[/b]:00:00'
+
+
+    BoxLayout:
+        orientation: 'horizontal'
+        padding: 20
+        spacing: 20
+        height: 90
+        size_hint: (1, None)
+
+        Button:
+            text: 'Start'
+            id: start_stop
+
+            background_normal : 'blue_normal.png'
+            background_down: 'blue_down.png'
+            border: (2,2,2,2)
+            on_press : app.start_stop()
+
+        Button:
+            id: reset
+            text: 'Reset'
+
+            background_normal : 'red_normal.png'
+            background_down: 'red_down.png'
+            border: (2,2,2,2)
+            on_press: app.reset()
+    Label:
+        id: stopwatch
+        text:'00:00.[size=40]00[/size]'
+
+
+
+
+
