@@ -7,7 +7,7 @@ Kivy Module
 
 ## Video Tutorial
 
-The video tutorial is hosted on youtube.
+The video tutorial is hosted on [youtube](https://youtu.be/sjNNYcNWbQk).
 
 ## License
 © 2020 Udit Vashisht
